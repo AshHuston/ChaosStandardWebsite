@@ -1,0 +1,1298 @@
+[
+  {
+    "code": "lea",
+    "name": "Limited Edition Alpha",
+    "set_type": "core",
+    "num_cards": 295,
+    "released_at": "1993-08-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/lea.svg?1787544000"
+  },
+  {
+    "code": "leb",
+    "name": "Limited Edition Beta",
+    "set_type": "core",
+    "num_cards": 302,
+    "released_at": "1993-10-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/leb.svg?1787544000"
+  },
+  {
+    "code": "2ed",
+    "name": "Unlimited Edition",
+    "set_type": "core",
+    "num_cards": 302,
+    "released_at": "1993-12-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/2ed.svg?1787544000"
+  },
+  {
+    "code": "arn",
+    "name": "Arabian Nights",
+    "set_type": "small",
+    "num_cards": 92,
+    "released_at": "1993-12-17",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/arn.svg?1787544000"
+  },
+  {
+    "code": "atq",
+    "name": "Antiquities",
+    "set_type": "small",
+    "num_cards": 102,
+    "released_at": "1994-03-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/atq.svg?1787544000"
+  },
+  {
+    "code": "3ed",
+    "name": "Revised Edition",
+    "set_type": "core",
+    "num_cards": 306,
+    "released_at": "1994-04-11",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/3ed.svg?1787544000"
+  },
+  {
+    "code": "fbb",
+    "name": "Foreign Black Border",
+    "set_type": "core",
+    "num_cards": 307,
+    "released_at": "1994-04-11",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/3ed.svg?1787544000"
+  },
+  {
+    "code": "leg",
+    "name": "Legends",
+    "set_type": "large",
+    "num_cards": 310,
+    "released_at": "1994-06-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/leg.svg?1787544000"
+  },
+  {
+    "code": "sum",
+    "name": "Summer Magic / Edgar",
+    "set_type": "core",
+    "num_cards": 306,
+    "released_at": "1994-06-21",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/psum.svg?1787544000"
+  },
+  {
+    "code": "drk",
+    "name": "The Dark",
+    "set_type": "small",
+    "num_cards": 122,
+    "released_at": "1994-08-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/drk.svg?1787544000"
+  },
+  {
+    "code": "fem",
+    "name": "Fallen Empires",
+    "set_type": "small",
+    "num_cards": 187,
+    "released_at": "1994-11-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/fem.svg?1787544000"
+  },
+  {
+    "code": "4bb",
+    "name": "Fourth Edition Foreign Black Border",
+    "set_type": "core",
+    "num_cards": 378,
+    "released_at": "1995-04-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/4ed.svg?1787544000"
+  },
+  {
+    "code": "4ed",
+    "name": "Fourth Edition",
+    "set_type": "core",
+    "num_cards": 380,
+    "released_at": "1995-04-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/4ed.svg?1787544000"
+  },
+  {
+    "code": "ice",
+    "name": "Ice Age",
+    "set_type": "large",
+    "num_cards": 383,
+    "released_at": "1995-06-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ice.svg?1787544000"
+  },
+  {
+    "code": "hml",
+    "name": "Homelands",
+    "set_type": "small",
+    "num_cards": 140,
+    "released_at": "1995-10-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/hml.svg?1787544000"
+  },
+  {
+    "code": "all",
+    "name": "Alliances",
+    "set_type": "small",
+    "num_cards": 199,
+    "released_at": "1996-06-10",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/all.svg?1787544000"
+  },
+  {
+    "code": "mir",
+    "name": "Mirage",
+    "set_type": "large",
+    "num_cards": 353,
+    "released_at": "1996-10-08",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mir.svg?1787544000"
+  },
+  {
+    "code": "vis",
+    "name": "Visions",
+    "set_type": "small",
+    "num_cards": 167,
+    "released_at": "1997-02-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/vis.svg?1787544000"
+  },
+  {
+    "code": "5ed",
+    "name": "Fifth Edition",
+    "set_type": "core",
+    "num_cards": 460,
+    "released_at": "1997-03-24",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/5ed.svg?1787544000"
+  },
+  {
+    "code": "wth",
+    "name": "Weatherlight",
+    "set_type": "small",
+    "num_cards": 167,
+    "released_at": "1997-06-09",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/wth.svg?1787544000"
+  },
+  {
+    "code": "tmp",
+    "name": "Tempest",
+    "set_type": "large",
+    "num_cards": 350,
+    "released_at": "1997-10-14",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tmp.svg?1787544000"
+  },
+  {
+    "code": "sth",
+    "name": "Stronghold",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "1998-03-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/sth.svg?1787544000"
+  },
+  {
+    "code": "exo",
+    "name": "Exodus",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "1998-06-15",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/exo.svg?1787544000"
+  },
+  {
+    "code": "usg",
+    "name": "Urza's Saga",
+    "set_type": "large",
+    "num_cards": 357,
+    "released_at": "1998-10-12",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/usg.svg?1787544000"
+  },
+  {
+    "code": "ulg",
+    "name": "Urza's Legacy",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "1999-02-15",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ulg.svg?1787544000"
+  },
+  {
+    "code": "6ed",
+    "name": "Classic Sixth Edition",
+    "set_type": "core",
+    "num_cards": 351,
+    "released_at": "1999-04-21",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/6ed.svg?1787544000"
+  },
+  {
+    "code": "uds",
+    "name": "Urza's Destiny",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "1999-06-07",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/uds.svg?1787544000"
+  },
+  {
+    "code": "mmq",
+    "name": "Mercadian Masques",
+    "set_type": "large",
+    "num_cards": 350,
+    "released_at": "1999-10-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mmq.svg?1787544000"
+  },
+  {
+    "code": "nem",
+    "name": "Nemesis",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "2000-02-14",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/nem.svg?1787544000"
+  },
+  {
+    "code": "pcy",
+    "name": "Prophecy",
+    "set_type": "small",
+    "num_cards": 144,
+    "released_at": "2000-06-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/pcy.svg?1787544000"
+  },
+  {
+    "code": "inv",
+    "name": "Invasion",
+    "set_type": "large",
+    "num_cards": 354,
+    "released_at": "2000-10-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/inv.svg?1787544000"
+  },
+  {
+    "code": "pls",
+    "name": "Planeshift",
+    "set_type": "small",
+    "num_cards": 146,
+    "released_at": "2001-02-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/pls.svg?1787544000"
+  },
+  {
+    "code": "7ed",
+    "name": "Seventh Edition",
+    "set_type": "core",
+    "num_cards": 708,
+    "released_at": "2001-04-11",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/7ed.svg?1787544000"
+  },
+  {
+    "code": "apc",
+    "name": "Apocalypse",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "2001-06-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/apc.svg?1787544000"
+  },
+  {
+    "code": "ody",
+    "name": "Odyssey",
+    "set_type": "large",
+    "num_cards": 353,
+    "released_at": "2001-10-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ody.svg?1787544000"
+  },
+  {
+    "code": "tor",
+    "name": "Torment",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "2002-02-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tor.svg?1787544000"
+  },
+  {
+    "code": "jud",
+    "name": "Judgment",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "2002-05-27",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/jud.svg?1787544000"
+  },
+  {
+    "code": "ons",
+    "name": "Onslaught",
+    "set_type": "large",
+    "num_cards": 351,
+    "released_at": "2002-10-07",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ons.svg?1787544000"
+  },
+  {
+    "code": "lgn",
+    "name": "Legions",
+    "set_type": "small",
+    "num_cards": 145,
+    "released_at": "2003-02-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/lgn.svg?1787544000"
+  },
+  {
+    "code": "scg",
+    "name": "Scourge",
+    "set_type": "small",
+    "num_cards": 143,
+    "released_at": "2003-05-26",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/scg.svg?1787544000"
+  },
+  {
+    "code": "8ed",
+    "name": "Eighth Edition",
+    "set_type": "core",
+    "num_cards": 711,
+    "released_at": "2003-07-28",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/8ed.svg?1787544000"
+  },
+  {
+    "code": "mrd",
+    "name": "Mirrodin",
+    "set_type": "large",
+    "num_cards": 306,
+    "released_at": "2003-10-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mrd.svg?1787544000"
+  },
+  {
+    "code": "dst",
+    "name": "Darksteel",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2004-02-06",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dst.svg?1787544000"
+  },
+  {
+    "code": "5dn",
+    "name": "Fifth Dawn",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2004-06-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/5dn.svg?1787544000"
+  },
+  {
+    "code": "chk",
+    "name": "Champions of Kamigawa",
+    "set_type": "large",
+    "num_cards": 307,
+    "released_at": "2004-10-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/chk.svg?1787544000"
+  },
+  {
+    "code": "bok",
+    "name": "Betrayers of Kamigawa",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2005-02-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/bok.svg?1787544000"
+  },
+  {
+    "code": "sok",
+    "name": "Saviors of Kamigawa",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2005-06-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/sok.svg?1787544000"
+  },
+  {
+    "code": "9ed",
+    "name": "Ninth Edition",
+    "set_type": "core",
+    "num_cards": 710,
+    "released_at": "2005-07-29",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/9ed.svg?1787544000"
+  },
+  {
+    "code": "rav",
+    "name": "Ravnica: City of Guilds",
+    "set_type": "large",
+    "num_cards": 306,
+    "released_at": "2005-10-07",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/rav.svg?1787544000"
+  },
+  {
+    "code": "gpt",
+    "name": "Guildpact",
+    "set_type": "small",
+    "num_cards": 167,
+    "released_at": "2006-02-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/gpt.svg?1787544000"
+  },
+  {
+    "code": "dis",
+    "name": "Dissension",
+    "set_type": "small",
+    "num_cards": 180,
+    "released_at": "2006-05-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dis.svg?1787544000"
+  },
+  {
+    "code": "csp",
+    "name": "Coldsnap",
+    "set_type": "small",
+    "num_cards": 155,
+    "released_at": "2006-07-21",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/csp.svg?1787544000"
+  },
+  {
+    "code": "tsb",
+    "name": "Time Spiral Timeshifted",
+    "set_type": "small",
+    "num_cards": 121,
+    "released_at": "2006-10-06",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tsp.svg?1787544000"
+  },
+  {
+    "code": "tsp",
+    "name": "Time Spiral",
+    "set_type": "large",
+    "num_cards": 301,
+    "released_at": "2006-10-06",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tsp.svg?1787544000"
+  },
+  {
+    "code": "plc",
+    "name": "Planar Chaos",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2007-02-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/plc.svg?1787544000"
+  },
+  {
+    "code": "fut",
+    "name": "Future Sight",
+    "set_type": "small",
+    "num_cards": 180,
+    "released_at": "2007-05-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/fut.svg?1787544000"
+  },
+  {
+    "code": "10e",
+    "name": "Tenth Edition",
+    "set_type": "core",
+    "num_cards": 510,
+    "released_at": "2007-07-13",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/10e.svg?1787544000"
+  },
+  {
+    "code": "lrw",
+    "name": "Lorwyn",
+    "set_type": "large",
+    "num_cards": 301,
+    "released_at": "2007-10-12",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/lrw.svg?1787544000"
+  },
+  {
+    "code": "mor",
+    "name": "Morningtide",
+    "set_type": "small",
+    "num_cards": 150,
+    "released_at": "2008-02-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mor.svg?1787544000"
+  },
+  {
+    "code": "shm",
+    "name": "Shadowmoor",
+    "set_type": "large",
+    "num_cards": 302,
+    "released_at": "2008-05-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/shm.svg?1787544000"
+  },
+  {
+    "code": "eve",
+    "name": "Eventide",
+    "set_type": "small",
+    "num_cards": 180,
+    "released_at": "2008-07-25",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/eve.svg?1787544000"
+  },
+  {
+    "code": "ala",
+    "name": "Shards of Alara",
+    "set_type": "large",
+    "num_cards": 250,
+    "released_at": "2008-10-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ala.svg?1787544000"
+  },
+  {
+    "code": "con",
+    "name": "Conflux",
+    "set_type": "small",
+    "num_cards": 145,
+    "released_at": "2009-02-06",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/con.svg?1787544000"
+  },
+  {
+    "code": "arb",
+    "name": "Alara Reborn",
+    "set_type": "small",
+    "num_cards": 145,
+    "released_at": "2009-04-30",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/arb.svg?1787544000"
+  },
+  {
+    "code": "m10",
+    "name": "Magic 2010",
+    "set_type": "core",
+    "num_cards": 249,
+    "released_at": "2009-07-17",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m10.svg?1787544000"
+  },
+  {
+    "code": "zen",
+    "name": "Zendikar",
+    "set_type": "large",
+    "num_cards": 269,
+    "released_at": "2009-10-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/zen.svg?1787544000"
+  },
+  {
+    "code": "wwk",
+    "name": "Worldwake",
+    "set_type": "small",
+    "num_cards": 145,
+    "released_at": "2010-02-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/wwk.svg?1787544000"
+  },
+  {
+    "code": "roe",
+    "name": "Rise of the Eldrazi",
+    "set_type": "large",
+    "num_cards": 248,
+    "released_at": "2010-04-23",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/roe.svg?1787544000"
+  },
+  {
+    "code": "m11",
+    "name": "Magic 2011",
+    "set_type": "core",
+    "num_cards": 249,
+    "released_at": "2010-07-16",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m11.svg?1787544000"
+  },
+  {
+    "code": "som",
+    "name": "Scars of Mirrodin",
+    "set_type": "large",
+    "num_cards": 249,
+    "released_at": "2010-10-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/som.svg?1787544000"
+  },
+  {
+    "code": "mbs",
+    "name": "Mirrodin Besieged",
+    "set_type": "small",
+    "num_cards": 155,
+    "released_at": "2011-02-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mbs.svg?1787544000"
+  },
+  {
+    "code": "nph",
+    "name": "New Phyrexia",
+    "set_type": "small",
+    "num_cards": 175,
+    "released_at": "2011-05-13",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/nph.svg?1787544000"
+  },
+  {
+    "code": "m12",
+    "name": "Magic 2012",
+    "set_type": "core",
+    "num_cards": 249,
+    "released_at": "2011-07-15",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m12.svg?1787544000"
+  },
+  {
+    "code": "isd",
+    "name": "Innistrad",
+    "set_type": "large",
+    "num_cards": 264,
+    "released_at": "2011-09-30",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/isd.svg?1787544000"
+  },
+  {
+    "code": "dka",
+    "name": "Dark Ascension",
+    "set_type": "small",
+    "num_cards": 158,
+    "released_at": "2012-02-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dka.svg?1787544000"
+  },
+  {
+    "code": "avr",
+    "name": "Avacyn Restored",
+    "set_type": "large",
+    "num_cards": 244,
+    "released_at": "2012-05-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/avr.svg?1787544000"
+  },
+  {
+    "code": "m13",
+    "name": "Magic 2013",
+    "set_type": "core",
+    "num_cards": 249,
+    "released_at": "2012-07-13",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m13.svg?1787544000"
+  },
+  {
+    "code": "rtr",
+    "name": "Return to Ravnica",
+    "set_type": "large",
+    "num_cards": 274,
+    "released_at": "2012-10-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/rtr.svg?1787544000"
+  },
+  {
+    "code": "gtc",
+    "name": "Gatecrash",
+    "set_type": "large",
+    "num_cards": 249,
+    "released_at": "2013-02-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/gtc.svg?1787544000"
+  },
+  {
+    "code": "dgm",
+    "name": "Dragon's Maze",
+    "set_type": "small",
+    "num_cards": 156,
+    "released_at": "2013-05-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dgm.svg?1787544000"
+  },
+  {
+    "code": "m14",
+    "name": "Magic 2014",
+    "set_type": "core",
+    "num_cards": 249,
+    "released_at": "2013-07-19",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m14.svg?1787544000"
+  },
+  {
+    "code": "ths",
+    "name": "Theros",
+    "set_type": "large",
+    "num_cards": 249,
+    "released_at": "2013-09-27",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ths.svg?1787544000"
+  },
+  {
+    "code": "bng",
+    "name": "Born of the Gods",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2014-02-07",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/bng.svg?1787544000"
+  },
+  {
+    "code": "jou",
+    "name": "Journey into Nyx",
+    "set_type": "small",
+    "num_cards": 165,
+    "released_at": "2014-05-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/jou.svg?1787544000"
+  },
+  {
+    "code": "m15",
+    "name": "Magic 2015",
+    "set_type": "core",
+    "num_cards": 284,
+    "released_at": "2014-07-18",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m15.svg?1787544000"
+  },
+  {
+    "code": "ktk",
+    "name": "Khans of Tarkir",
+    "set_type": "large",
+    "num_cards": 293,
+    "released_at": "2014-09-26",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ktk.svg?1787544000"
+  },
+  {
+    "code": "frf",
+    "name": "Fate Reforged",
+    "set_type": "small",
+    "num_cards": 191,
+    "released_at": "2015-01-23",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/frf.svg?1787544000"
+  },
+  {
+    "code": "dtk",
+    "name": "Dragons of Tarkir",
+    "set_type": "large",
+    "num_cards": 264,
+    "released_at": "2015-03-27",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dtk.svg?1787544000"
+  },
+  {
+    "code": "ori",
+    "name": "Magic Origins",
+    "set_type": "core",
+    "num_cards": 288,
+    "released_at": "2015-07-17",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ori.svg?1787544000"
+  },
+  {
+    "code": "bfz",
+    "name": "Battle for Zendikar",
+    "set_type": "large",
+    "num_cards": 299,
+    "released_at": "2015-10-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/bfz.svg?1787544000"
+  },
+  {
+    "code": "ogw",
+    "name": "Oath of the Gatewatch",
+    "set_type": "small",
+    "num_cards": 187,
+    "released_at": "2016-01-22",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ogw.svg?1787544000"
+  },
+  {
+    "code": "soi",
+    "name": "Shadows over Innistrad",
+    "set_type": "large",
+    "num_cards": 302,
+    "released_at": "2016-04-08",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/soi.svg?1787544000"
+  },
+  {
+    "code": "emn",
+    "name": "Eldritch Moon",
+    "set_type": "large",
+    "num_cards": 208,
+    "released_at": "2016-07-22",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/emn.svg?1787544000"
+  },
+  {
+    "code": "kld",
+    "name": "Kaladesh",
+    "set_type": "large",
+    "num_cards": 278,
+    "released_at": "2016-09-30",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/kld.svg?1787544000"
+  },
+  {
+    "code": "aer",
+    "name": "Aether Revolt",
+    "set_type": "small",
+    "num_cards": 197,
+    "released_at": "2017-01-20",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/aer.svg?1787544000"
+  },
+  {
+    "code": "akh",
+    "name": "Amonkhet",
+    "set_type": "large",
+    "num_cards": 287,
+    "released_at": "2017-04-28",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/akh.svg?1787544000"
+  },
+  {
+    "code": "hou",
+    "name": "Hour of Devastation",
+    "set_type": "large",
+    "num_cards": 209,
+    "released_at": "2017-07-14",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/hou.svg?1787544000"
+  },
+  {
+    "code": "xln",
+    "name": "Ixalan",
+    "set_type": "large",
+    "num_cards": 289,
+    "released_at": "2017-09-29",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/xln.svg?1787544000"
+  },
+  {
+    "code": "rix",
+    "name": "Rivals of Ixalan",
+    "set_type": "large",
+    "num_cards": 205,
+    "released_at": "2018-01-19",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/rix.svg?1787544000"
+  },
+  {
+    "code": "dom",
+    "name": "Dominaria",
+    "set_type": "large",
+    "num_cards": 280,
+    "released_at": "2018-04-27",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dom.svg?1787544000"
+  },
+  {
+    "code": "m19",
+    "name": "Core Set 2019",
+    "set_type": "core",
+    "num_cards": 314,
+    "released_at": "2018-07-13",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m19.svg?1787544000"
+  },
+  {
+    "code": "grn",
+    "name": "Guilds of Ravnica",
+    "set_type": "large",
+    "num_cards": 273,
+    "released_at": "2018-10-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/grn.svg?1787544000"
+  },
+  {
+    "code": "rna",
+    "name": "Ravnica Allegiance",
+    "set_type": "large",
+    "num_cards": 273,
+    "released_at": "2019-01-25",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/rna.svg?1787544000"
+  },
+  {
+    "code": "war",
+    "name": "War of the Spark",
+    "set_type": "large",
+    "num_cards": 312,
+    "released_at": "2019-05-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/war.svg?1787544000"
+  },
+  {
+    "code": "m20",
+    "name": "Core Set 2020",
+    "set_type": "core",
+    "num_cards": 346,
+    "released_at": "2019-07-12",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m20.svg?1787544000"
+  },
+  {
+    "code": "eld",
+    "name": "Throne of Eldraine",
+    "set_type": "large",
+    "num_cards": 398,
+    "released_at": "2019-10-04",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/eld.svg?1787544000"
+  },
+  {
+    "code": "thb",
+    "name": "Theros Beyond Death",
+    "set_type": "large",
+    "num_cards": 358,
+    "released_at": "2020-01-24",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/thb.svg?1787544000"
+  },
+  {
+    "code": "iko",
+    "name": "Ikoria: Lair of Behemoths",
+    "set_type": "large",
+    "num_cards": 390,
+    "released_at": "2020-04-24",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/iko.svg?1787544000"
+  },
+  {
+    "code": "m21",
+    "name": "Core Set 2021",
+    "set_type": "core",
+    "num_cards": 397,
+    "released_at": "2020-07-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/m21.svg?1787544000"
+  },
+  {
+    "code": "znr",
+    "name": "Zendikar Rising",
+    "set_type": "large",
+    "num_cards": 407,
+    "released_at": "2020-09-25",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/znr.svg?1787544000"
+  },
+  {
+    "code": "khm",
+    "name": "Kaldheim",
+    "set_type": "large",
+    "num_cards": 425,
+    "released_at": "2021-02-05",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/khm.svg?1787544000"
+  },
+  {
+    "code": "stx",
+    "name": "Strixhaven: School of Mages",
+    "set_type": "large",
+    "num_cards": 393,
+    "released_at": "2021-04-23",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/stx.svg?1787544000"
+  },
+  {
+    "code": "afr",
+    "name": "Adventures in the Forgotten Realms",
+    "set_type": "large",
+    "num_cards": 424,
+    "released_at": "2021-07-23",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/afr.svg?1787544000"
+  },
+  {
+    "code": "mid",
+    "name": "Innistrad: Midnight Hunt",
+    "set_type": "large",
+    "num_cards": 399,
+    "released_at": "2021-09-24",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mid.svg?1787544000"
+  },
+  {
+    "code": "vow",
+    "name": "Innistrad: Crimson Vow",
+    "set_type": "large",
+    "num_cards": 423,
+    "released_at": "2021-11-19",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/vow.svg?1787544000"
+  },
+  {
+    "code": "neo",
+    "name": "Kamigawa: Neon Dynasty",
+    "set_type": "large",
+    "num_cards": 531,
+    "released_at": "2022-02-18",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/neo.svg?1787544000"
+  },
+  {
+    "code": "snc",
+    "name": "Streets of New Capenna",
+    "set_type": "large",
+    "num_cards": 513,
+    "released_at": "2022-04-29",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/snc.svg?1787544000"
+  },
+  {
+    "code": "dmu",
+    "name": "Dominaria United",
+    "set_type": "large",
+    "num_cards": 453,
+    "released_at": "2022-09-09",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dmu.svg?1787544000"
+  },
+  {
+    "code": "bro",
+    "name": "The Brothers' War",
+    "set_type": "large",
+    "num_cards": 399,
+    "released_at": "2022-11-18",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/bro.svg?1787544000"
+  },
+  {
+    "code": "one",
+    "name": "Phyrexia: All Will Be One",
+    "set_type": "large",
+    "num_cards": 479,
+    "released_at": "2023-02-10",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/one.svg?1787544000"
+  },
+  {
+    "code": "mom",
+    "name": "March of the Machine",
+    "set_type": "large",
+    "num_cards": 387,
+    "released_at": "2023-04-21",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mom.svg?1787544000"
+  },
+  {
+    "code": "mat",
+    "name": "March of the Machine: The Aftermath",
+    "set_type": "large",
+    "num_cards": 230,
+    "released_at": "2023-05-12",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mat.svg?1787544000"
+  },
+  {
+    "code": "woe",
+    "name": "Wilds of Eldraine",
+    "set_type": "large",
+    "num_cards": 381,
+    "released_at": "2023-09-08",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/woe.svg?1787544000"
+  },
+  {
+    "code": "lci",
+    "name": "The Lost Caverns of Ixalan",
+    "set_type": "large",
+    "num_cards": 416,
+    "released_at": "2023-11-17",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/lci.svg?1787544000"
+  },
+  {
+    "code": "mkm",
+    "name": "Murders at Karlov Manor",
+    "set_type": "large",
+    "num_cards": 451,
+    "released_at": "2024-02-09",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/mkm.svg?1787544000"
+  },
+  {
+    "code": "otj",
+    "name": "Outlaws of Thunder Junction",
+    "set_type": "large",
+    "num_cards": 374,
+    "released_at": "2024-04-19",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/otj.svg?1787544000"
+  },
+  {
+    "code": "big",
+    "name": "The Big Score",
+    "set_type": "small",
+    "num_cards": 95,
+    "released_at": "2024-04-19",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/big.svg?1787544000"
+  },
+  {
+    "code": "blb",
+    "name": "Bloomburrow",
+    "set_type": "large",
+    "num_cards": 398,
+    "released_at": "2024-08-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/blb.svg?1787544000"
+  },
+  {
+    "code": "dsk",
+    "name": "Duskmourn: House of Horror",
+    "set_type": "large",
+    "num_cards": 419,
+    "released_at": "2024-09-27",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dsk.svg?1787544000"
+  },
+  {
+    "code": "fdn",
+    "name": "Foundations",
+    "set_type": "core",
+    "num_cards": 771,
+    "released_at": "2024-11-15",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/fdn.svg?1787544000"
+  },
+  {
+    "code": "dft",
+    "name": "Aetherdrift",
+    "set_type": "large",
+    "num_cards": 553,
+    "released_at": "2025-02-14",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/dft.svg?1787544000"
+  },
+  {
+    "code": "tdm",
+    "name": "Tarkir: Dragonstorm",
+    "set_type": "large",
+    "num_cards": 427,
+    "released_at": "2025-04-11",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tdm.svg?1787544000"
+  },
+  {
+    "code": "fin",
+    "name": "Final Fantasy",
+    "set_type": "large",
+    "num_cards": 599,
+    "released_at": "2025-06-13",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/fin.svg?1787544000"
+  },
+  {
+    "code": "eoe",
+    "name": "Edge of Eternities",
+    "set_type": "large",
+    "num_cards": 400,
+    "released_at": "2025-08-01",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/eoe.svg?1787544000"
+  },
+  {
+    "code": "om1",
+    "name": "Through the Omenpaths",
+    "set_type": "small",
+    "num_cards": 189,
+    "released_at": "2025-09-23",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/om1.svg?1787544000"
+  },
+  {
+    "code": "spm",
+    "name": "Marvel's Spider-Man",
+    "set_type": "large",
+    "num_cards": 286,
+    "released_at": "2025-09-26",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/spm.svg?1787544000"
+  },
+  {
+    "code": "tla",
+    "name": "Avatar: The Last Airbender",
+    "set_type": "large",
+    "num_cards": 394,
+    "released_at": "2025-11-21",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tla.svg?1787544000"
+  },
+  {
+    "code": "ecl",
+    "name": "Lorwyn Eclipsed",
+    "set_type": "large",
+    "num_cards": 408,
+    "released_at": "2026-01-23",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/ecl.svg?1787544000"
+  },
+  {
+    "code": "tmt",
+    "name": "Teenage Mutant Ninja Turtles",
+    "set_type": "large",
+    "num_cards": 320,
+    "released_at": "2026-03-06",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/tmt.svg?1787544000"
+  },
+  {
+    "code": "sos",
+    "name": "Secrets of Strixhaven",
+    "set_type": "large",
+    "num_cards": 368,
+    "released_at": "2026-04-24",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/sos.svg?1787544000"
+  },
+  {
+    "code": "msh",
+    "name": "Marvel Super Heroes",
+    "set_type": "large",
+    "num_cards": 453,
+    "released_at": "2026-06-26",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/msh.svg?1787544000"
+  },
+  {
+    "code": "hob",
+    "name": "The Hobbit",
+    "set_type": "large",
+    "num_cards": 321,
+    "released_at": "2026-08-14",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/hob.svg?1787544000"
+  },
+  {
+    "code": "fra",
+    "name": "Reality Fracture",
+    "set_type": "small",
+    "num_cards": 43,
+    "released_at": "2026-10-02",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/fra.svg?1787544000"
+  },
+  {
+    "code": "trk",
+    "name": "Star Trek",
+    "set_type": "small",
+    "num_cards": 135,
+    "released_at": "2026-11-13",
+    "is_universes_beyond": true,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/trk.svg?1787544000"
+  }
+]

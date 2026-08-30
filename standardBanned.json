@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Abuelo's Awakening",
+    "set": "lci",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/9/f93b725e-2b9c-4830-ac54-b2562afe09bb.jpg?1783913817"
+  },
+  {
+    "name": "Aetherworks Marvel",
+    "set": "kld",
+    "image_uri": "https://cards.scryfall.io/normal/front/8/8/884f6948-3e03-48c6-8be2-6f2539386c9d.jpg?1783937164"
+  },
+  {
+    "name": "Agent of Treachery",
+    "set": "m20",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/c/cc6686e6-4535-49be-b0b3-e76464656cd2.jpg?1783933017"
+  },
+  {
+    "name": "Alrund's Epiphany",
+    "set": "prm",
+    "image_uri": "https://cards.scryfall.io/normal/front/1/6/161d9453-41bb-40e8-b388-0d1086295093.jpg?1783927970"
+  },
+  {
+    "name": "Ancestral Recall",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/0/70e7ddf2-5604-41e7-bb9d-ddd03d3e9d0b.jpg?1783948708"
+  },
+  {
+    "name": "Ancestral Recall",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/6/46b0a5c2-ac85-448e-9e87-12fc74fd4147.jpg?1783948647"
+  },
+  {
+    "name": "Ancestral Recall",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/d/2dd41293-d7c8-4422-9f0c-b3e96350f5c9.jpg?1783948580"
+  },
+  {
+    "name": "Ancient Den",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/c/cc857fbd-8e0f-4bff-8f14-561c9925c484.jpg?1783944494"
+  },
+  {
+    "name": "Arcbound Ravager",
+    "set": "dst",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/2/72c1a731-7854-42b1-8719-ac3c2a269c1f.jpg?1783944429"
+  },
+  {
+    "name": "Attune with Aether",
+    "set": "kld",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/2/32b0707d-241e-4ced-9251-b16af4fef2cb.jpg?1783937182"
+  },
+  {
+    "name": "Badgermole Cub",
+    "set": "tla",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/4/340c5799-4964-44dd-8c48-8f3f3aba5211.jpg?1786399172"
+  },
+  {
+    "name": "Balance",
+    "set": "4ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/d/b/db3e219d-8e5e-44c7-97b3-2d489e2808b9.jpg?1783947874"
+  },
+  {
+    "name": "Black Lotus",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/0/b0faa7f2-b547-42c4-a810-839da50dadfe.jpg?1783948669"
+  },
+  {
+    "name": "Black Lotus",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/3/b3a69a1c-c80f-4413-a6fd-ae54cabbce28.jpg?1783948607"
+  },
+  {
+    "name": "Black Lotus",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1783948539"
+  },
+  {
+    "name": "Black Vise",
+    "set": "4ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/1/9/196b83a1-2a25-498d-83b8-8faacd79909d.jpg?1783947806"
+  },
+  {
+    "name": "Cauldron Familiar",
+    "set": "jmp",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/2/32cf273e-b8f7-434b-9d5d-883dfd6f7423.jpg?1783930430"
+  },
+  {
+    "name": "Cori-Steel Cutter",
+    "set": "tdm",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/9/490eb213-9ae2-4b45-abec-6f1dfc83792a.jpg?1783907363"
+  },
+  {
+    "name": "Darksteel Citadel",
+    "set": "dst",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/5/c5d0e808-d67b-4ea3-9c04-d20269fe692c.jpg?1783944412"
+  },
+  {
+    "name": "Disciple of the Vault",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/4/644359dc-3c4c-4291-876d-7390dc466877.jpg?1783944548"
+  },
+  {
+    "name": "Divide by Zero",
+    "set": "stx",
+    "image_uri": "https://cards.scryfall.io/normal/front/1/9/1958d96e-ec44-48ab-80b1-5b01a24ac7b8.jpg?1783927380"
+  },
+  {
+    "name": "Dream Halls",
+    "set": "sth",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/f/ff4a22d9-007b-4eb7-af9e-b5c2cae36238.jpg?1783946570"
+  },
+  {
+    "name": "Earthcraft",
+    "set": "tmp",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/d/9dda7531-82a1-4f49-8858-601ddbc6e2bc.jpg?1783946620"
+  },
+  {
+    "name": "Emrakul, the Promised End",
+    "set": "emn",
+    "image_uri": "https://cards.scryfall.io/normal/front/8/d/8d74a469-c71d-4773-99d3-5456b31df424.jpg?1783937526"
+  },
+  {
+    "name": "Escape to the Wilds",
+    "set": "eld",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/e/3e26c10b-179f-4a6e-bc8d-3ec1d6783fb9.jpg?1783932598"
+  },
+  {
+    "name": "Fable of the Mirror-Breaker",
+    "set": "prm",
+    "image_uri": null
+  },
+  {
+    "name": "Faceless Haven",
+    "set": "pwcs",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/4/f447b55a-8998-46dd-b10c-4545bbcb97c2.jpg?1783925184"
+  },
+  {
+    "name": "Felidar Guardian",
+    "set": "aer",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780"
+  },
+  {
+    "name": "Field of the Dead",
+    "set": "m20",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/7/470ca3f4-29aa-4c4c-8ff2-8cdd70c69943.jpg?1783932937"
+  },
+  {
+    "name": "Fires of Invention",
+    "set": "eld",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/1/a12b16b0-f75f-42d8-9b24-947c1908e0f7.jpg?1783932623"
+  },
+  {
+    "name": "Fluctuator",
+    "set": "usg",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/2/92078408-e0e4-443e-b0fd-aac0ac651f46.jpg?1783946305"
+  },
+  {
+    "name": "Gran-Gran",
+    "set": "tla",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/a/fa434b41-e5f7-4989-865a-95db67b05cb1.jpg?1786399175"
+  },
+  {
+    "name": "Great Furnace",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/8/2877281d-c85d-4f32-b40d-828b93c4ee8e.jpg?1783944493"
+  },
+  {
+    "name": "Growth Spiral",
+    "set": "c20",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/9/69625c5a-cf13-4c5d-816c-fd1670685587.jpg?1783931147"
+  },
+  {
+    "name": "Heartfire Hero",
+    "set": "blb",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/8/48ace959-66b2-40c8-9bff-fd7ed9c99a82.jpg?1783910820"
+  },
+  {
+    "name": "Hopeless Nightmare",
+    "set": "woe",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/c/2c2ee817-9ca9-4f09-bc71-7994c19a9470.jpg?1783915106"
+  },
+  {
+    "name": "Invoke Despair",
+    "set": "prm",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/7/b707abcb-3ec0-4afd-b5a4-547595a77701.jpg?1783921633"
+  },
+  {
+    "name": "Ivory Tower",
+    "set": "4ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/f/eff5624d-fffa-48c1-91f3-f03585e45c69.jpg?1783947800"
+  },
+  {
+    "name": "Jace, the Mind Sculptor",
+    "set": "wwk",
+    "image_uri": "https://cards.scryfall.io/normal/front/0/e/0e606072-a3aa-4300-ba90-ec92a721fa76.jpg?1783942061"
+  },
+  {
+    "name": "Land Tax",
+    "set": "ren",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/9/f987a61a-1c8d-4d78-b67a-c60899ea1efa.jpg?1783947344"
+  },
+  {
+    "name": "Lotus Petal",
+    "set": "tmp",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/c/6c877da3-68fa-41d0-8a24-8c79fcd8ecc1.jpg?1783946602"
+  },
+  {
+    "name": "Lucky Clover",
+    "set": "eld",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/b/4b5d23a6-3a23-4169-aea1-f10bf5153180.jpg?1783932584"
+  },
+  {
+    "name": "Memory Jar",
+    "set": "ulg",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/1/a15d33d6-7213-4482-a1be-ac0a73644af6.jpg?1783946221"
+  },
+  {
+    "name": "Mind Over Matter",
+    "set": "exo",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/e/6e091dd6-149f-46ea-bae0-224e79e3aacb.jpg?1783946523"
+  },
+  {
+    "name": "Mind Twist",
+    "set": "4ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/b/bbb6765c-a052-46dc-a589-200b8ba8c99f.jpg?1783947842"
+  },
+  {
+    "name": "Monstrous Rage",
+    "set": "woe",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/e/eef5a0ae-5907-42c9-a097-3f973737e392.jpg?1783915091"
+  },
+  {
+    "name": "Mox Emerald",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/0/b0e1427c-05cd-465b-be59-97ed6e39f7ba.jpg?1783948663"
+  },
+  {
+    "name": "Mox Emerald",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/a/ea5d9476-76be-48e7-b6a0-49ced25cb092.jpg?1783948601"
+  },
+  {
+    "name": "Mox Emerald",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/4/a4db5af2-9caf-4493-b340-6d64021139e2.jpg?1783948533"
+  },
+  {
+    "name": "Mox Jet",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/2/92bcd1ce-19b1-4d78-8b09-95242ca08d76.jpg?1783948663"
+  },
+  {
+    "name": "Mox Jet",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/1/3/133204e4-fef8-4851-aa50-c96ffa35b802.jpg?1783948601"
+  },
+  {
+    "name": "Mox Jet",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/0/70d6c02e-0f48-4fb0-94f3-1fc92ee1814f.jpg?1783948534"
+  },
+  {
+    "name": "Mox Pearl",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/8/e/8ebe4be7-e12a-4596-a899-fbd5b152e879.jpg?1783948663"
+  },
+  {
+    "name": "Mox Pearl",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/d/4da892c5-071f-416f-9e42-c4bff102eb88.jpg?1783948600"
+  },
+  {
+    "name": "Mox Pearl",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/8/c84e8a0e-49a7-46f6-8a37-910e32753528.jpg?1783948533"
+  },
+  {
+    "name": "Mox Ruby",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/8/9/8945585f-4773-493d-a0fe-d707db910b38.jpg?1783948662"
+  },
+  {
+    "name": "Mox Ruby",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/d/fdac742b-16db-4e03-be8f-c600dbd522d5.jpg?1783948600"
+  },
+  {
+    "name": "Mox Ruby",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/1/21b7cbae-6647-4f36-b02d-5535ac88b1a6.jpg?1783948533"
+  },
+  {
+    "name": "Mox Sapphire",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/8/2/82da0972-b17b-4600-9efd-e9430a0db04b.jpg?1783948662"
+  },
+  {
+    "name": "Mox Sapphire",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/1/e/1eb3178b-dac5-4b34-9d3e-4f5a170d1c87.jpg?1783948600"
+  },
+  {
+    "name": "Mox Sapphire",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/7/f7d82f1d-631e-4668-9d10-7bf0ee515267.jpg?1783948532"
+  },
+  {
+    "name": "Oko, Thief of Crowns",
+    "set": "prm",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/a/4a4c2221-ee54-4ff8-b7bb-c115ffdad44b.jpg?1783932479"
+  },
+  {
+    "name": "Omnath, Locus of Creation",
+    "set": "znr",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/e/4e4fb50c-a81f-44d3-93c5-fa9a0b37f617.jpg?1783929320"
+  },
+  {
+    "name": "Once Upon a Time",
+    "set": "eld",
+    "image_uri": "https://cards.scryfall.io/normal/front/4/0/4034e5ba-9974-43e3-bde7-8d9b4586c3a4.jpg?1783932607"
+  },
+  {
+    "name": "Proft's Eidetic Memory",
+    "set": "mkm",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/f/af5b29b3-974c-4200-8df8-b072c11e1600.jpg?1783912906"
+  },
+  {
+    "name": "Rampaging Ferocidon",
+    "set": "xln",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/9/39d3c658-1927-4af3-9077-88c4a669c730.jpg?1783935741"
+  },
+  {
+    "name": "Ramunap Ruins",
+    "set": "hou",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/f/af11d41a-0d29-45e9-9d27-a41282b9e292.jpg?1783935995"
+  },
+  {
+    "name": "Reckoner Bankbuster",
+    "set": "prm",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/a/7a7dcc4e-cc1c-4694-9aa2-35107f34cd23.jpg?1783921616"
+  },
+  {
+    "name": "Recurring Nightmare",
+    "set": "exo",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/8/c8173030-1c33-417c-b8e9-79231b6a85a7.jpg?1783946516"
+  },
+  {
+    "name": "Reflection of Kiki-Jiki",
+    "set": "prm",
+    "image_uri": null
+  },
+  {
+    "name": "Reflector Mage",
+    "set": "ogw",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/4/9473fe01-83f6-4432-ab01-f7953d2ca904.jpg?1783937896"
+  },
+  {
+    "name": "Rogue Refiner",
+    "set": "aer",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/1/618652b4-7ce9-4994-9d16-68d2cc8644ef.jpg?1783936736"
+  },
+  {
+    "name": "Screaming Nemesis",
+    "set": "dsk",
+    "image_uri": "https://cards.scryfall.io/normal/front/c/e/ce35e6fb-ff54-44c4-a216-7ddd37f46882.jpg?1783909465"
+  },
+  {
+    "name": "Seat of the Synod",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/5/d/5da5587d-6b6c-4645-8cc9-2866d1e6911b.jpg?1783944493"
+  },
+  {
+    "name": "Skullclamp",
+    "set": "dst",
+    "image_uri": "https://cards.scryfall.io/normal/front/5/5/55318397-de3c-47ea-a088-72a24df5c8fa.jpg?1783944419"
+  },
+  {
+    "name": "Smuggler's Copter",
+    "set": "kld",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/8/7832abb5-5107-4603-904e-491b221bd3e3.jpg?1783937147"
+  },
+  {
+    "name": "Stoneforge Mystic",
+    "set": "td0",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/1/31184c3a-31ed-4a0d-82c9-7c5bff503ec3.jpg?1783941633"
+  },
+  {
+    "name": "Stormchaser's Talent",
+    "set": "blb",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/3/a36e682d-b43d-4e08-bf5b-70d7e924dbe5.jpg?1786399178"
+  },
+  {
+    "name": "Strip Mine",
+    "set": "ren",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/e/eebb0f28-ac34-4b2e-9e22-df0d70fb3cd9.jpg?1783947320"
+  },
+  {
+    "name": "Teferi, Time Raveler",
+    "set": "sld",
+    "image_uri": "https://cards.scryfall.io/normal/front/6/e/6e2b2e55-21a3-4f71-a14b-d3d1b137d18c.jpg?1783931614"
+  },
+  {
+    "name": "The Meathook Massacre",
+    "set": "dbl",
+    "image_uri": "https://cards.scryfall.io/normal/front/d/c/dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a.jpg?1783924410"
+  },
+  {
+    "name": "This Town Ain't Big Enough",
+    "set": "otj",
+    "image_uri": "https://cards.scryfall.io/normal/front/b/b/bb206e27-da4d-4abe-9d8c-6d18c5f2f52a.jpg?1783911838"
+  },
+  {
+    "name": "Time Spiral",
+    "set": "usg",
+    "image_uri": "https://cards.scryfall.io/normal/front/f/3/f3d62dbd-63db-4ac9-950f-9852627f23f2.jpg?1783946354"
+  },
+  {
+    "name": "Time Walk",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/0/e0139f60-d48e-46fb-9f5a-1e3d7558c834.jpg?1783948701"
+  },
+  {
+    "name": "Time Walk",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/5/4/54992fda-45a9-4ed1-b380-34d167feec90.jpg?1783948639"
+  },
+  {
+    "name": "Time Walk",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/d/ade7d00d-4e7b-46e9-ace1-63f628a589fc.jpg?1783948572"
+  },
+  {
+    "name": "Timetwister",
+    "set": "lea",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/a/9a49dc44-616e-4bdd-8220-0bb71eccc512.jpg?1783948700"
+  },
+  {
+    "name": "Timetwister",
+    "set": "leb",
+    "image_uri": "https://cards.scryfall.io/normal/front/0/9/09f1958a-50cc-43cc-80e1-988800e44ca8.jpg?1783948639"
+  },
+  {
+    "name": "Timetwister",
+    "set": "2ed",
+    "image_uri": "https://cards.scryfall.io/normal/front/0/1/01bda3d7-122a-48a0-bab3-676c4a557b74.jpg?1783948574"
+  },
+  {
+    "name": "Tolarian Academy",
+    "set": "usg",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/d/ad7ac9a5-340f-4509-826c-7b9416d47887.jpg?1783946296"
+  },
+  {
+    "name": "Tree of Tales",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/4/94db07aa-43d3-41b5-924e-60f1756b9c69.jpg?1783944493"
+  },
+  {
+    "name": "Up the Beanstalk",
+    "set": "woe",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/d/2d5e991f-23b2-4db0-a452-7755125b1fd2.jpg?1783915075"
+  },
+  {
+    "name": "Uro, Titan of Nature's Wrath",
+    "set": "prm",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/f/af4722e0-c801-4f46-8fa3-d2118a0a4633.jpg?1783931374"
+  },
+  {
+    "name": "Vault of Whispers",
+    "set": "mrd",
+    "image_uri": "https://cards.scryfall.io/normal/front/7/3/73866487-33f4-4f64-b100-2c4ddadcd74e.jpg?1783944493"
+  },
+  {
+    "name": "Veil of Summer",
+    "set": "m20",
+    "image_uri": "https://cards.scryfall.io/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg?1783932955"
+  },
+  {
+    "name": "Vivi Ornitier",
+    "set": "fin",
+    "image_uri": "https://cards.scryfall.io/normal/front/e/c/ecc1027a-8c07-44a0-bdde-fa2844cff694.jpg?1783906561"
+  },
+  {
+    "name": "Wilderness Reclamation",
+    "set": "c20",
+    "image_uri": "https://cards.scryfall.io/normal/front/9/4/94a28102-dfbe-49e9-b64f-52b552afac1b.jpg?1783931155"
+  },
+  {
+    "name": "Windfall",
+    "set": "usg",
+    "image_uri": "https://cards.scryfall.io/normal/front/2/a/2aef4608-5ba8-4636-b5e7-cac57c5c0608.jpg?1783946351"
+  },
+  {
+    "name": "Zuran Orb",
+    "set": "ice",
+    "image_uri": "https://cards.scryfall.io/normal/front/3/a/3a9d1082-a862-45d4-9e5e-392e879fead6.jpg?1783947454"
+  }
+]
