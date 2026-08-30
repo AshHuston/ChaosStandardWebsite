@@ -1,4 +1,5 @@
 <template>
+    <p>Select the oldest and newest sets to allow, the number of sets, and if you want UB or not. And we will generate you a standard format!</p>
     <div class="controls">
 
         <!-- OLDEST SET -->
@@ -104,7 +105,7 @@
             </li>
         </ol>
     </div>
-    <div>
+    <div v-if="bannedCardsInFormat.length > 0">
         <h2>Banned Cards</h2>
         <p>Cards banned in standard during any point that one of your sets was in standard.</p>
         <span>
