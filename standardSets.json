@@ -54,15 +54,6 @@
     "icon_svg_uri": "https://svgs.scryfall.io/sets/3ed.svg?1787544000"
   },
   {
-    "code": "fbb",
-    "name": "Foreign Black Border",
-    "set_type": "core",
-    "num_cards": 307,
-    "released_at": "1994-04-11",
-    "is_universes_beyond": false,
-    "icon_svg_uri": "https://svgs.scryfall.io/sets/3ed.svg?1787544000"
-  },
-  {
     "code": "leg",
     "name": "Legends",
     "set_type": "large",
@@ -97,15 +88,6 @@
     "released_at": "1994-11-01",
     "is_universes_beyond": false,
     "icon_svg_uri": "https://svgs.scryfall.io/sets/fem.svg?1787544000"
-  },
-  {
-    "code": "4bb",
-    "name": "Fourth Edition Foreign Black Border",
-    "set_type": "core",
-    "num_cards": 378,
-    "released_at": "1995-04-01",
-    "is_universes_beyond": false,
-    "icon_svg_uri": "https://svgs.scryfall.io/sets/4ed.svg?1787544000"
   },
   {
     "code": "4ed",

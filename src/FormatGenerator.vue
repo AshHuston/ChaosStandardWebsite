@@ -105,6 +105,16 @@
             </li>
         </ol>
     </div>
+    <div v-if="scryfallSearchUrl">
+        <h2>Card Pool</h2>
+        <a
+            :href="scryfallSearchUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View all legal cards on Scryfall
+        </a>
+    </div>
     <div v-if="bannedCardsInFormat.length > 0">
         <h2>Banned Cards</h2>
         <p>Cards banned in standard during any point that one of your sets was in standard.</p>
@@ -142,6 +152,23 @@ const bannedCardsInFormat = computed(() => {
             set.code === card.set
         )
     );
+});
+
+const scryfallSearchUrl = computed(() => {
+    if (resultSets.value.length === 0)
+        return "";
+
+    const setQuery = resultSets.value
+        .map(set => `set:${set.code}`)
+        .join(" OR ");
+
+    const bannedQuery = bannedCardsInFormat.value
+        .map(card => `-!"${card.name}"`)
+        .join(" ");
+
+    const query = `(${setQuery}) game:paper ${bannedQuery}`;
+
+    return `https://scryfall.com/search?q=${encodeURIComponent(query)}`;
 });
 
 async function generate() {
