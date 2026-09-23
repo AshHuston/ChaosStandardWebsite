@@ -1,0 +1,550 @@
+[
+  {
+    "name": "10th Edition",
+    "lastLegal": "July 16, 2009"
+  },
+  {
+    "name": "4th Edition",
+    "lastLegal": "Apr 22 1997"
+  },
+  {
+    "name": "4th Edition",
+    "lastLegal": "Jun 1995"
+  },
+  {
+    "name": "5th Edition",
+    "lastLegal": "May 31, 1999"
+  },
+  {
+    "name": "6th edition",
+    "lastLegal": "Apr 30 2001"
+  },
+  {
+    "name": "7th Edition",
+    "lastLegal": "Aug 31 2003"
+  },
+  {
+    "name": "8th edition",
+    "lastLegal": "Aug 19 2005"
+  },
+  {
+    "name": "Aether Revolt",
+    "lastLegal": "Oct 4 2018"
+  },
+  {
+    "name": "Aetherdrift",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Alara Reborn",
+    "lastLegal": "Sept 30 2010"
+  },
+  {
+    "name": "Alliances",
+    "lastLegal": "Oct 31 1997"
+  },
+  {
+    "name": "Amonkhet",
+    "lastLegal": "Oct 4 2018"
+  },
+  {
+    "name": "Apocalypse",
+    "lastLegal": "Oct 31 2002"
+  },
+  {
+    "name": "Avacyn Restored",
+    "lastLegal": "Sep 26 2013"
+  },
+  {
+    "name": "Battle For Zendikar",
+    "lastLegal": "Sep 28 2017"
+  },
+  {
+    "name": "Betrayers of Kamigawa",
+    "lastLegal": "Oct 19 2006"
+  },
+  {
+    "name": "Born of the Gods",
+    "lastLegal": "Oct 1 2015"
+  },
+  {
+    "name": "Brother's War",
+    "lastLegal": "Nov 14 2024"
+  },
+  {
+    "name": "Champions of Kamigawa",
+    "lastLegal": "Oct 19 2006"
+  },
+  {
+    "name": "Chronicles",
+    "lastLegal": "Apr 22 1997"
+  },
+  {
+    "name": "Coldsnap",
+    "lastLegal": "Oct 2 2008"
+  },
+  {
+    "name": "Conflux",
+    "lastLegal": "Sept 30 2010"
+  },
+  {
+    "name": "Core Set 2019",
+    "lastLegal": "Nov 16 2018"
+  },
+  {
+    "name": "Core Set 2020",
+    "lastLegal": "Sep 24 2020"
+  },
+  {
+    "name": "Core Set 2021",
+    "lastLegal": "Sep 2021"
+  },
+  {
+    "name": "Crimson Vow",
+    "lastLegal": "Aug 01 2024"
+  },
+  {
+    "name": "D&D Forgotten Realms",
+    "lastLegal": "Sep 9 2022"
+  },
+  {
+    "name": "Dark Ascension",
+    "lastLegal": "Sep 26 2013"
+  },
+  {
+    "name": "Darksteel",
+    "lastLegal": "Oct 19 2005"
+  },
+  {
+    "name": "Dissension",
+    "lastLegal": "Oct 19 2007"
+  },
+  {
+    "name": "Dominaria United",
+    "lastLegal": "Nov 14 2024"
+  },
+  {
+    "name": "Dominaria",
+    "lastLegal": "Oct 3 2019"
+  },
+  {
+    "name": "Dragon's Maze",
+    "lastLegal": "Sep 25 2014"
+  },
+  {
+    "name": "Dragons of Tarkir",
+    "lastLegal": "Sep 29 2016"
+  },
+  {
+    "name": "Duskmourn",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "Eldritch Moon",
+    "lastLegal": "Sep 28 2017"
+  },
+  {
+    "name": "Eventide",
+    "lastLegal": "Oct 1 2009"
+  },
+  {
+    "name": "Exodus",
+    "lastLegal": "Oct 31 1999"
+  },
+  {
+    "name": "Fallen Empires",
+    "lastLegal": "Dec 31 1996"
+  },
+  {
+    "name": "Fate Reforged",
+    "lastLegal": "Apr 7 2016"
+  },
+  {
+    "name": "Fifth Dawn",
+    "lastLegal": "Oct 19 2005"
+  },
+  {
+    "name": "Future Sight",
+    "lastLegal": "Oct 2 2008"
+  },
+  {
+    "name": "Gatecrash",
+    "lastLegal": "Sep 25 2014"
+  },
+  {
+    "name": "Guildpact",
+    "lastLegal": "Oct 19 2007"
+  },
+  {
+    "name": "Guilds of Ravnica",
+    "lastLegal": "Sep 24 2020"
+  },
+  {
+    "name": "Guilds of Ravnica",
+    "lastLegal": "Jan 23 2020"
+  },
+  {
+    "name": "Homelands",
+    "lastLegal": "Oct 31 1997"
+  },
+  {
+    "name": "Hour of Devastation",
+    "lastLegal": "Oct 4 2018"
+  },
+  {
+    "name": "Ice Age",
+    "lastLegal": "Oct 31 1997"
+  },
+  {
+    "name": "Ikoria: L.O.B.",
+    "lastLegal": "Sep 2021"
+  },
+  {
+    "name": "Innistrad",
+    "lastLegal": "Sep 26 2013"
+  },
+  {
+    "name": "Invasion",
+    "lastLegal": "Oct 31 2002"
+  },
+  {
+    "name": "Ixalan",
+    "lastLegal": "Oct 3 2019"
+  },
+  {
+    "name": "Journey Into Nyx",
+    "lastLegal": "Oct 1 2015"
+  },
+  {
+    "name": "Judgment",
+    "lastLegal": "Oct 19 2003"
+  },
+  {
+    "name": "Kaladesh",
+    "lastLegal": "Oct 4 2018"
+  },
+  {
+    "name": "Kaldheim",
+    "lastLegal": "Sep 9 2022"
+  },
+  {
+    "name": "Khans of Tarkir",
+    "lastLegal": "Apr 7 2016"
+  },
+  {
+    "name": "Legions",
+    "lastLegal": "Oct 19 2004"
+  },
+  {
+    "name": "Lorwyn",
+    "lastLegal": "Oct 1 2009"
+  },
+  {
+    "name": "Lost Caverns of Ixalan",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "M10",
+    "lastLegal": "Sept 30 2010"
+  },
+  {
+    "name": "M11",
+    "lastLegal": "Sep 29 2011"
+  },
+  {
+    "name": "M12",
+    "lastLegal": "Oct 4 2012"
+  },
+  {
+    "name": "M13",
+    "lastLegal": "Sep 26 2013"
+  },
+  {
+    "name": "M14",
+    "lastLegal": "Sep 25 2014"
+  },
+  {
+    "name": "M15",
+    "lastLegal": "Oct 1 2015"
+  },
+  {
+    "name": "Magic Origins",
+    "lastLegal": "Sep 29 2016"
+  },
+  {
+    "name": "March of the Machine",
+    "lastLegal": "Nov 14 2024"
+  },
+  {
+    "name": "Mercadian Masques",
+    "lastLegal": "Oct 31 2001"
+  },
+  {
+    "name": "Midnight Hunt",
+    "lastLegal": "Aug 01 2024"
+  },
+  {
+    "name": "Mirage",
+    "lastLegal": "Oct 31 1998"
+  },
+  {
+    "name": "Mirrodin",
+    "lastLegal": "Oct 19 2005"
+  },
+  {
+    "name": "Mirrodin Besieged",
+    "lastLegal": "Oct 4 2012"
+  },
+  {
+    "name": "MoM:The Aftermath",
+    "lastLegal": "Nov 14 2024"
+  },
+  {
+    "name": "Morningtide",
+    "lastLegal": "Oct 1 2009"
+  },
+  {
+    "name": "Murders at Karlov Manor",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "Nemesis",
+    "lastLegal": "Oct 31 2001"
+  },
+  {
+    "name": "Kamigawa: Neon Dynasty",
+    "lastLegal": "Aug 01 2024"
+  },
+  {
+    "name": "New Phyrexia",
+    "lastLegal": "Oct 4 2012"
+  },
+  {
+    "name": "Ninth Edition",
+    "lastLegal": "July 19, 2007"
+  },
+  {
+    "name": "Oath of the Gatewatch",
+    "lastLegal": "Sep 28 2017"
+  },
+  {
+    "name": "Odyssey",
+    "lastLegal": "Oct 19 2003"
+  },
+  {
+    "name": "Onslaught",
+    "lastLegal": "Oct 19 2004"
+  },
+  {
+    "name": "Bloomburrow",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "Outlaws of Thunder Junction",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "Phyrexia: All Will Be One",
+    "lastLegal": "June 12 2024"
+  },
+  {
+    "name": "Planar Chaos",
+    "lastLegal": "Oct 2 2008"
+  },
+  {
+    "name": "Planeshift",
+    "lastLegal": "Oct 31 2002"
+  },
+  {
+    "name": "Prophecy",
+    "lastLegal": "Oct 31 2001"
+  },
+  {
+    "name": "Ravnica Allegiance",
+    "lastLegal": "Sep 24 2020"
+  },
+  {
+    "name": "Ravnica: City of Guilds",
+    "lastLegal": "Oct 19 2007"
+  },
+  {
+    "name": "Return to Ravnica",
+    "lastLegal": "Sep 25 2014"
+  },
+  {
+    "name": "Revised",
+    "lastLegal": "Apr 18 1995"
+  },
+  {
+    "name": "Rise of the Eldrazi",
+    "lastLegal": "Sep 29 2011"
+  },
+  {
+    "name": "Tarkir: Dragonstorm",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Final Fantasy",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Rivals of Ixalan",
+    "lastLegal": "Oct 3 2019"
+  },
+  {
+    "name": "Saviors of Kamigawa",
+    "lastLegal": "Oct 19 2006"
+  },
+  {
+    "name": "Scars of Mirrodin",
+    "lastLegal": "Oct 4 2012"
+  },
+  {
+    "name": "Scourge",
+    "lastLegal": "Oct 19 2004"
+  },
+  {
+    "name": "Shadowmoor",
+    "lastLegal": "Oct 1 2009"
+  },
+  {
+    "name": "Shadows Over Innistrad",
+    "lastLegal": "Sep 28 2017"
+  },
+  {
+    "name": "Shards of Alara",
+    "lastLegal": "Sept 30 2010"
+  },
+  {
+    "name": "Streets of New Capenna",
+    "lastLegal": "Sep 9 2022"
+  },
+  {
+    "name": "Strixhaven",
+    "lastLegal": "Sep 9 2022"
+  },
+  {
+    "name": "Stronghold",
+    "lastLegal": "Oct 31 1999"
+  },
+  {
+    "name": "Tempest",
+    "lastLegal": "Oct 31 1999"
+  },
+  {
+    "name": "The Big Score",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "The Dark",
+    "lastLegal": "Jun 1995"
+  },
+  {
+    "name": "Theros",
+    "lastLegal": "Oct 1 2015"
+  },
+  {
+    "name": "Theros: Beyond Death",
+    "lastLegal": "Sep 2021"
+  },
+  {
+    "name": "Throne of Eldraine",
+    "lastLegal": "Sep 2021"
+  },
+  {
+    "name": "Time Spiral",
+    "lastLegal": "Oct 2 2008"
+  },
+  {
+    "name": "timeshifted",
+    "lastLegal": "Oct 2 2008"
+  },
+  {
+    "name": "Edge of Eternities",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Marvel's Spider-Man",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Avatar: The Last Airbender",
+    "lastLegal": "Jan 1 2028"
+  },
+  {
+    "name": "Foundations",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Lorwyn Eclipsed",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Secrets of Strixhaven",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Marvel Super Heroes",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "The Hobbit",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Reality Fracture",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Star Trek",
+    "lastLegal": "Jan 1 2029"
+  },
+  {
+    "name": "Torment",
+    "lastLegal": "Oct 19 2003"
+  },
+  {
+    "name": "Urza's Destiny",
+    "lastLegal": "Oct 31 2000"
+  },
+  {
+    "name": "Urza's Legacy",
+    "lastLegal": "Oct 31 2000"
+  },
+  {
+    "name": "Urza's Saga",
+    "lastLegal": "Oct 31 2000"
+  },
+  {
+    "name": "Visions",
+    "lastLegal": "Oct 31 1998"
+  },
+  {
+    "name": "War of the Spark",
+    "lastLegal": "Sep 24 2020"
+  },
+  {
+    "name": "Weatherlight",
+    "lastLegal": "Oct 31 1998"
+  },
+  {
+    "name": "Wilds of Eldraine",
+    "lastLegal": "Jan 1 2027"
+  },
+  {
+    "name": "Worldwake",
+    "lastLegal": "Sep 29 2011"
+  },
+  {
+    "name": "Zendikar",
+    "lastLegal": "Sep 29 2011"
+  },
+  {
+    "name": "Zendikar Rising",
+    "lastLegal": "Sep 9 2022"
+  }
+]
