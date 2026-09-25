@@ -7,7 +7,7 @@ async function addCards() {
     );
 
     let foundLast = false;
-    const lastSaved = "Revised Edition"
+    const lastSaved = "Murders at Karlov Manor"
 
     for (const set of data) {
         console.log("--------");
