@@ -1,30 +1,44 @@
-import { getTopCardsFrom } from "./mtgtop8scraper.js"
+import { getTopCardsFrom } from "./mtgtop8scraper.js";
 import fs from "fs/promises";
 
 async function addCards() {
-const data = JSON.parse(
-    await fs.readFile("./standardSetsWithLegality.json", "utf8")
-);
+    const data = JSON.parse(
+        await fs.readFile("./standardSetsWithLegality.json", "utf8")
+    );
 
+    let foundLast = false;
+    const lastSaved = "Zendikar Rising"
 
-// Assume the file contains an array
-for (const set of data) {
-    console.log("--------")
-    if (!set.lastLegal) { continue; }
-    
-    const foundcards = await getTopCardsFrom(set);
-    set.topCards = foundcards
-    console.log(`${foundcards.size} top cards found from ${set.name}`)
+    for (const set of data) {
+        console.log("--------");
+
+        if (!set.lastLegal) {
+            continue;
+        }
+
+        if (set.name !== lastSaved && !foundLast) {
+            continue;
+        }
+        foundLast = true;
+
+        const foundCards = await getTopCardsFrom(set);
+
+        // Convert Set -> Array for JSON
+        set.topCards = [...foundCards];
+
+        console.log(
+            `${foundCards.size} top cards found from ${set.name}`
+        );
+
+        await fs.writeFile(
+            "./standardSetsWithTopCards.json",
+            JSON.stringify(data, null, 2)
+        );
+
+        console.log(`Saved progress after ${set.name}`);
+    }
+
+    console.log("Done!");
 }
 
-// Write the modified data to a new file
-await fs.writeFile(
-    "./standardSetsWithTopCards.json",
-    JSON.stringify(data, null, 2)
-);
-
-console.log("Done!");
-
-}
-
-await addCards()
+await addCards();
