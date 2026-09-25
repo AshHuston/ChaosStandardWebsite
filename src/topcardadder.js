@@ -7,7 +7,7 @@ async function addCards() {
     );
 
     let foundLast = false;
-    const lastSaved = "Zendikar Rising"
+    const lastSaved = "Limited Edition Alpha"
 
     for (const set of data) {
         console.log("--------");
