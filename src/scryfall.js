@@ -74,3 +74,41 @@ export async function createSetReleaseReport(date){
     const setNames = sets.map(s => s.name).join(", ")
     return `### Sets:\nThe following sets were released on ${date}: ${setNames}.`
 }
+
+export async function getCardsFromSet(setCode) {
+    const cards = [];
+    let url = `https://api.scryfall.com/cards/search?q=set:${setCode}`;
+
+    while (url) {
+        const response = await fetch(url, {
+            headers: {
+                "User-Agent": "ChaosStandardWebsite/1.0 (personal project)",
+                "Accept": "application/json"
+            }
+        });
+        await sleep()
+
+        const data = await response.json();
+            if (!data.data) {
+                console.log("Bad response for set:", setCode);
+                console.log(JSON.stringify(data, null, 2));
+                //while (true ) {}
+            }
+        cards.push(
+            ...data.data
+                .filter(card => card.lang === "en")
+                .map(card => card.name)
+        );
+
+        url = data.has_more ? data.next_page : null;
+    }
+
+    console.log(`${cards.length} cards found in ${setCode}`)
+    return cards;
+}
+
+async function sleep(ms=200) {
+    return new Promise(resolve =>
+        setTimeout(resolve, ms)
+    );
+}

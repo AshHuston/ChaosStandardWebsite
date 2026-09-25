@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { markdownScryfallLlink } from './scryfall.js';
+import { markdownScryfallLlink, getCardsFromSet } from './scryfall.js';
 
 export async function getEventForDate(date) {
 
@@ -10,17 +10,80 @@ export async function getEventForDate(date) {
     params.append("date_end", date);
 
     const response = await fetch("https://mtgtop8.com/search", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent": "Mozilla/5.0",
-        "Referer": "https://mtgtop8.com/search",
-        "Origin": "https://mtgtop8.com"
-    },
-    body: params.toString()
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": "Mozilla/5.0",
+            "Referer": "https://mtgtop8.com/search",
+            "Origin": "https://mtgtop8.com"
+        },
+        body: params.toString()
     });
 
     return await response.text();
+}
+
+async function getEventsForDateRange(startDate, endDate) {
+    const allRows = [];
+    let currentPage = 1;
+
+    while (true) {
+        const params = new URLSearchParams();
+
+        params.append("compet_check[P]", "1");
+        params.append("compet_check[M]", "1");
+        params.append("format", "ST");
+        params.append("date_start", formatDate(startDate));
+        params.append("date_end", formatDate(endDate));
+
+        params.append("current_page", currentPage);
+
+        const response = await fetch(
+            "https://mtgtop8.com/search",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "User-Agent": "Mozilla/5.0",
+                    "Referer": "https://mtgtop8.com/search",
+                    "Origin": "https://mtgtop8.com"
+                },
+                body: params.toString()
+            }
+        );
+
+        const html = await response.text();
+        const pageRows = extractRows(html);
+        if (pageRows.length === 0) { break; }
+
+        allRows.push(...pageRows);
+        //console.log(`Pushed a new event`)
+
+        if (pageRows.length < 25) {
+            break;
+        }
+        currentPage++;
+    }
+
+    const decksByEvent = Object.values(
+        allRows.reduce((acc, row) => {
+            if (!acc[row.event]) {
+                acc[row.event] = [];
+            }
+
+            acc[row.event].push(row);
+
+            return acc;
+        }, {})
+    );
+
+    const events = []
+
+    decksByEvent.forEach(event => {
+        events.push({ decks: event, topCards: [] })
+    })
+    
+    return events;
 }
 
 function fixFormatName(name){
@@ -95,8 +158,8 @@ async function buildEventReport(rows) {
     return report;
 }
 
-export async function getFullEventReport(date = new Intl.DateTimeFormat('en-GB').format(new Date), dataOnly = false){
-    const html = await getEventForDate(date)
+export async function getFullEventReport(date = new Intl.DateTimeFormat('en-GB').format(new Date), endDate = '', dataOnly = false){
+    const html = endDate === '' ? await getEventForDate(date) : await getEventsForDateRange(date, endDate)
     const $ = cheerio.load(html);
     const table = $('table.Stable');
     const rows = table.find('tr.hover_tr');
@@ -116,15 +179,13 @@ export async function getFullEventReport(date = new Intl.DateTimeFormat('en-GB')
 
     const groupedData = Object.values(
         data.reduce((acc, item) => {
-            if (!acc[item.event]) {
-            acc[item.event] = [];
-            }
+            if (!acc[item.event]) { acc[item.event] = []; }
             acc[item.event].push(item);
             return acc;
         }, {})
     );
 
-    if (dataOnly) { return groupedData; }
+    if (dataOnly) { return data; }
 
     let finalReport = "";
 
@@ -177,35 +238,54 @@ export async function getDeckList(deckUrl) {
     return { mainboard, sideboard };
 }
 
-function findMostCommonCards(decklists, blacklist = ['plains', 'island', 'swamp', 'mountain', 'forest']) {
+function findMostCommonCards(decklists, listAllCards = false, blacklist = ['plains', 'island', 'swamp', 'mountain', 'forest']) {
   const blacklistSet = new Set(
     blacklist.map(name => name.trim().toLowerCase())
   );
 
-  const countCards = (lists) => {
+  const countCards = (lists, returnAll = false) => {
     const totals = new Map();
-    for (const list of lists) {
-        
-      for (const { cardname, count } of list) {
-        if (blacklistSet.has(cardname.toLowerCase())) continue;
 
-        totals.set(cardname, (totals.get(cardname) || 0) + count);
-      }
+    for (const list of lists) {
+        for (const { cardname, count } of list) {
+            if (blacklistSet.has(cardname.toLowerCase())) {
+                continue;
+            }
+
+            totals.set(
+                cardname,
+                (totals.get(cardname) || 0) + count
+            );
+        }
     }
 
     let max = 0;
     for (const total of totals.values()) {
-      if (total > max) max = total;
+        if (total > max) {
+            max = total;
+        }
     }
 
-    return [...totals.entries()]
-      .filter(([, total]) => total === max)
-      .map(([cardname, total]) => ({ cardname, total }));
+    const cards = [...totals.entries()]
+        .map(([cardname, total]) => ({
+            cardname,
+            total
+        }));
+
+    if (returnAll) {
+        return cards.sort(
+            (a, b) => b.total - a.total
+        );
+    }
+
+    return cards.filter(
+        card => card.total === max
+    );
   };
 
   return {
-    mainboardCards: countCards(decklists.map(d => d.mainboard)),
-    sideboardCards: countCards(decklists.map(d => d.sideboard))
+    mainboardCards: countCards(decklists.map(d => d.mainboard), listAllCards),
+    sideboardCards: countCards(decklists.map(d => d.sideboard), listAllCards)
   };
 }
 
@@ -250,7 +330,114 @@ async function formatCards(cards) {
   return `${list}. Each with ${count} copies.`;
 }
 
-// Just a lil test
-//console.log(await getFullEventReport("18/10/15"))
+async function getEventsFromSetInStandard(set){
+    const { released_at, lastLegal } = set;
+    if (!released_at) { throw new Error(`No release date found for: ${set.name}`) }
+    if (!lastLegal) { throw new Error(`No rotation date found for: ${set.name}`) }
+    const events = await getEventsForDateRange(released_at, lastLegal)
+    return events 
+}
 
-console.log(await getFullEventReport("18/10/15", true))
+export async function getTopCardsFrom(set){
+    const events = await getEventsFromSetInStandard(set);
+    console.log(`${events.length} events found for ${set.name}`)
+    let topCards = new Set()
+    let numEventsWIthCards = 0
+    const setCards = await getCardsFromSet(set.code);
+    for (const event of events) {
+        const decklists = [];
+
+        for (const deck of event.decks) {
+            const decklist = await getDeckList(
+                `https://mtgtop8.com/${deck.deckUrl}`
+            );
+            decklists.push(decklist);
+        }
+
+        const mostCommonCards = findMostCommonCards(decklists, true);
+        const combined = mostCommonCards.mainboardCards.concat(
+            mostCommonCards.sideboardCards
+        );
+
+        const cardNames = combined.map(card => card.cardname);
+
+        cardNames.forEach(card => topCards.add(card));
+
+        event.topCards = cardNames;
+
+        if (event.topCards.some(item => setCards.includes(item))) {
+            numEventsWIthCards++;
+        }
+    }
+
+    function eventsWith(cardName){
+        return events.filter(
+            event => event.topCards.includes(cardName)
+        ).length;
+    }
+
+    const shareOfEvents = 0.65
+    const minEvents = Math.ceil(events.length * shareOfEvents)
+
+    
+    const cards = [...topCards]
+    // cards.forEach(card => {
+    //     // console.log(eventsWith(card))
+    //     // console.log(setCards.includes(card))
+    //     if (eventsWith(card) >= minEvents && setCards.includes(card)) {numEventsWIthCards.add()};
+    // })
+    console.log(`${numEventsWIthCards} events with cards from ${set.name}`)
+
+    return new Set(
+        [...topCards].filter(card => {
+            return (eventsWith(card) >= minEvents) && setCards.includes(card);
+        })
+    )
+}
+
+function formatDate(dateString) {
+    if (/^\d{2}-\d{2}-\d{4}$/.test(dateString)) { return dateString; }
+    const match = dateString.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!match) { throw new Error(`Invalid date format: ${dateString}`); }
+    const [, year, month, day] = match;
+    return `${day}/${month}/${year}`;
+}
+
+function extractRows(html) {
+    const $ = cheerio.load(html);
+
+    const table = $('table.Stable');
+    const rows = table.find('tr.hover_tr');
+
+    return rows.map((_, row) => {
+        const cells = $(row).find('td');
+
+        return {
+            deck: cells.eq(1).text().trim(),
+            player: cells.eq(2).text().trim(),
+            format: cells.eq(3).text().trim(),
+            event: cells.eq(4).text().trim(),
+            rank: cells.eq(6).text().trim(),
+            date: cells.eq(7).text().trim(),
+            deckUrl: cells.eq(1).find('a').attr('href'),
+            playerUrl: cells.eq(2).find('a').attr('href'),
+        };
+    }).get();
+}
+
+//console.log(await getFullEventReport("2004-06-04", "2005-10-19", true));
+//const events = await getEventsForDateRange("2004-06-04", "2005-10-19")
+const theros = {
+    "code": "vis",
+    "name": "Visions",
+    "set_type": "small",
+    "num_cards": 167,
+    "released_at": "1997-02-03",
+    "is_universes_beyond": false,
+    "icon_svg_uri": "https://svgs.scryfall.io/sets/vis.svg?1787544000",
+    "lastLegal": "1998-10-31"
+  }
+
+await getTopCardsFrom(theros)
+
+
