@@ -7,7 +7,7 @@ async function addCards() {
     );
 
     let foundLast = false;
-    const lastSaved = "Limited Edition Alpha"
+    const lastSaved = "Arabian Nights"
 
     for (const set of data) {
         console.log("--------");
