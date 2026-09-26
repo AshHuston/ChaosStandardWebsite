@@ -120,7 +120,8 @@
         <h2>Banned Cards</h2>
         <p>Cards banned in standard during any point that one of your sets was in standard.</p>
         <div class="card-grid">
-            <img v-for="card in bannedCardsInFormat" class="card-image" :src="card.image_uri" />
+            <!-- <img v-for="card in bannedCardsInFormat" class="card-image" :src="card.image_uri" /> -->
+            <cardHover v-for="card in bannedCardsInFormat" :card="{name: card.name, imgUrl: card.image_uri}" />
         </div>
     </div>
     
