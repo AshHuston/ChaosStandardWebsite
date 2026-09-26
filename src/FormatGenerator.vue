@@ -115,23 +115,25 @@
             View all legal cards on Scryfall
         </a>
     </div>
-    <div class="top-cards" v-if="topCardsBySet.length > 0">
-        <h2>Top cards</h2>
-        <p>*May take a moment to load all images* These are the cards that saw high degrees of success over the whole standard lifespan of your sets.</p>
-        <div class="card-grid">
-            <cardHover 
-                v-for="card in topCardsBySet"
-                :card-name="card.name"
-                :set-code="card.setCode"
-            />
-        </div>
-    </div>
+
     <div v-if="bannedCardsInFormat.length > 0">
         <h2>Banned Cards</h2>
         <p>Cards banned in standard during any point that one of your sets was in standard.</p>
-        <span>
+        <div class="card-grid">
             <img v-for="card in bannedCardsInFormat" class="card-image" :src="card.image_uri" />
-        </span>
+        </div>
+    </div>
+    
+    <div class="top-cards" v-if="topCardsBySet.length > 0">
+        <h2>Top cards</h2>
+        <p>These are the cards that saw high degrees of success over the whole standard lifespan of your sets.</p>
+        <div class="card-grid">
+            <cardHover 
+                v-for="card in topCardsBySet"
+                :card
+            />
+            <!-- <img v-for="card in topCardsBySet" class="card-image" :src="card.imgUrl" :alt="card.name" /> -->
+        </div>
     </div>
 </template>
 
@@ -139,7 +141,7 @@
 <script setup>
 import { ChaosFormatGenerator } from "./chaosStandardGenerator.js"
 import { ref, computed } from "vue"
-import allSets from "../standardSetsWithTopCards.json"
+import allSets from "../standardSetsWithImages.json"
 import bannedCards from "../standardBanned.json"
 import cardHover from "./cardHover.vue"
 
@@ -154,14 +156,18 @@ function setTopCards(){
     const topCards = [];
     resultSets.value.forEach(set => {
         set.topCards?.forEach(card => {
-            topCards.push({setCode: set.code, name: card})
+            console.log(card)
+            topCards.push(card)
         })
     });
-    topCards.sort((a, b) => a.name.localeCompare(b.name));
-    topCardsBySet.value = topCards;
+    
+    const bannedNames = new Set(bannedCards.map(card => card.name));
+    const bansRemoved = topCards.filter(card => !bannedNames.has(card.name));
+    bansRemoved.sort((a, b) => a.name.localeCompare(b.name));
+    topCardsBySet.value = bansRemoved;
 }
 
-const oldestSet = ref("lea");
+const oldestSet = ref("arn");
 const newestSet = ref("otj");
 
 const allowUniversesBeyond = ref(false);
@@ -207,7 +213,6 @@ async function generate() {
     );
 
     let sets = await g.generateFormat();
-    console.log(sets)
     sets = [
         ...sets.bigSets,
         ...sets.smallSets,
@@ -271,7 +276,7 @@ async function generate() {
     height: 1.4em;
 }
 
-.card-image {
+:deep().card-image {
     height: 10em
 }
 
@@ -280,9 +285,9 @@ async function generate() {
 }
 
 .card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    gap: 0.25rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
 }
 
 </style>

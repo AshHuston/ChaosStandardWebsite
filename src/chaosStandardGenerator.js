@@ -1,4 +1,4 @@
-import allSets from "../standardSetsWithTopCards.json";
+import allSets from "../standardSetsWithImages.json";
 
 export class ChaosFormatGenerator{
     constructor(

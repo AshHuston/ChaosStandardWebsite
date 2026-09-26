@@ -1,79 +1,47 @@
 <template>
-    <span
-        class="card-link"
-        :class="{ imageLoaded }"
+    <div
         @mouseenter="hovering = true"
         @mouseleave="hovering = false"
     >
-        {{ cardName }}
+        <img
+            class="card-image"
+            :src="card.imgUrl"
+            :alt="card.name"
+        />
 
         <div
-            v-if="hovering && imageUrl"
+            v-if="hovering"
             class="card-preview"
         >
             <img
-                :src="imageUrl"
-                :alt="cardName"
+                :src="card.imgUrl"
+                :alt="card.name"
             />
         </div>
-    </span>
+    </div>
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
-import { getCard } from "@/scryfallQueue";
+import { ref } from "vue";
 
 const props = defineProps({
-    cardName: {
-        type: String,
-        required: true
-    },
-    setCode: {
-        type: String,
-        required: true
+    card: {
+        name: {
+            type: String,
+            required: true
+        },
+        imgUrl: {
+            type: String,
+            required: true
+        }
     }
 });
 
-const imageLoaded = ref(false);
 const hovering = ref(false);
-const imageUrl = ref(null);
 
-async function loadCard() {
-    try {
-        imageUrl.value = null;
-
-        const card = await getCard(
-            props.cardName,
-            props.setCode
-        );
-
-        imageUrl.value =
-            card.image_uris?.normal ??
-            card.card_faces?.[0]?.image_uris?.normal ??
-            null;
-        imageLoaded.value = true;
-    }
-    catch (err) {
-        console.error(
-            `Failed to load ${props.cardName} (${props.setCode})`,
-            err
-        );
-    }
-}
-
-watch(
-    () => [props.cardName, props.setCode],
-    loadCard,
-    { immediate: true }
-);
 </script>
 
 <style scoped>
-.card-link {
-    position: relative;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 .card-preview {
     position: absolute;
@@ -87,9 +55,5 @@ watch(
     width: 265px;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-}
-
-.imageLoaded {
-    color: rgb(37, 97, 210);
 }
 </style>
