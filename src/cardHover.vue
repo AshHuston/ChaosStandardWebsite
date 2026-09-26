@@ -1,6 +1,7 @@
 <template>
     <span
         class="card-link"
+        :class="{ imageLoaded }"
         @mouseenter="hovering = true"
         @mouseleave="hovering = false"
     >
@@ -33,6 +34,7 @@ const props = defineProps({
     }
 });
 
+const imageLoaded = ref(false);
 const hovering = ref(false);
 const imageUrl = ref(null);
 
@@ -49,6 +51,7 @@ async function loadCard() {
             card.image_uris?.normal ??
             card.card_faces?.[0]?.image_uris?.normal ??
             null;
+        imageLoaded.value = true;
     }
     catch (err) {
         console.error(
@@ -84,5 +87,9 @@ watch(
     width: 265px;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.imageLoaded {
+    color: rgb(37, 97, 210);
 }
 </style>

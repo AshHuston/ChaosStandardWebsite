@@ -115,9 +115,9 @@
             View all legal cards on Scryfall
         </a>
     </div>
-    <div class="top-cards">
+    <div class="top-cards" v-if="topCardsBySet.length > 0">
         <h2>Top cards</h2>
-        <p>These are the cards that saw high degrees of success over the whole standard lifespan of your sets.</p>
+        <p>*May take a moment to load all images* These are the cards that saw high degrees of success over the whole standard lifespan of your sets.</p>
         <div class="card-grid">
             <cardHover 
                 v-for="card in topCardsBySet"
