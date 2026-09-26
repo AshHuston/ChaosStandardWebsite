@@ -93,7 +93,7 @@ const showDialog = ref(false);
     max-width: 90vw;
     max-height: 90vh;
 
-    border-radius: 18px;
+    border-radius: 22px;
 
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.75);
 }
