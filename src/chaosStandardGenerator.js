@@ -1,4 +1,4 @@
-import allSets from "../standardSets.json";
+import allSets from "../standardSetsWithTopCards.json";
 
 export class ChaosFormatGenerator{
     constructor(
@@ -15,6 +15,7 @@ export class ChaosFormatGenerator{
         this.numBigSets = numBigSets;
         this.numSmallSets = numSmallSets;
         this.numCoreSets = numCoreSets;
+        console.log(allSets)
     }
 
     async generateFormat(){

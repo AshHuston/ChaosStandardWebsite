@@ -3,16 +3,20 @@ import fs from "fs/promises";
 
 async function addCards() {
     const data = JSON.parse(
-        await fs.readFile("./standardSetsWithLegality.json", "utf8")
+        await fs.readFile("./standardSetsWithTopCards.json", "utf8")
     );
 
     let foundLast = false;
-    const lastSaved = "Murders at Karlov Manor"
+    const lastSaved = "Theros Beyond Death"
 
     for (const set of data) {
         console.log("--------");
 
         if (!set.lastLegal) {
+            continue;
+        }
+
+        if (set.topCards) {
             continue;
         }
 

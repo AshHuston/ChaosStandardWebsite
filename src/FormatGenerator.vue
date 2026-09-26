@@ -115,6 +115,17 @@
             View all legal cards on Scryfall
         </a>
     </div>
+    <div class="top-cards">
+        <h2>Top cards</h2>
+        <p>These are the cards that saw high degrees of success over the whole standard lifespan of your sets.</p>
+        <div class="card-grid">
+            <cardHover 
+                v-for="card in topCardsBySet"
+                :card-name="card.name"
+                :set-code="card.setCode"
+            />
+        </div>
+    </div>
     <div v-if="bannedCardsInFormat.length > 0">
         <h2>Banned Cards</h2>
         <p>Cards banned in standard during any point that one of your sets was in standard.</p>
@@ -128,13 +139,27 @@
 <script setup>
 import { ChaosFormatGenerator } from "./chaosStandardGenerator.js"
 import { ref, computed } from "vue"
-import allSets from "../standardSets.json"
+import allSets from "../standardSetsWithTopCards.json"
 import bannedCards from "../standardBanned.json"
-
+import cardHover from "./cardHover.vue"
 
 const sortedSets = [...allSets].sort(
     (a, b) => a.released_at.localeCompare(b.released_at)
 );
+
+const topCardsBySet = ref([]);
+
+function setTopCards(){
+    topCardsBySet.value = [];
+    const topCards = [];
+    resultSets.value.forEach(set => {
+        set.topCards?.forEach(card => {
+            topCards.push({setCode: set.code, name: card})
+        })
+    });
+    topCards.sort((a, b) => a.name.localeCompare(b.name));
+    topCardsBySet.value = topCards;
+}
 
 const oldestSet = ref("lea");
 const newestSet = ref("otj");
@@ -182,7 +207,7 @@ async function generate() {
     );
 
     let sets = await g.generateFormat();
-
+    console.log(sets)
     sets = [
         ...sets.bigSets,
         ...sets.smallSets,
@@ -193,6 +218,8 @@ async function generate() {
         (a, b) =>
             a.released_at.localeCompare(b.released_at)
     );
+
+    setTopCards();
 }
 </script>
 
@@ -246,6 +273,16 @@ async function generate() {
 
 .card-image {
     height: 10em
+}
+
+.top-cards {
+    margin-top: 2rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 0.25rem 2rem;
 }
 
 </style>
